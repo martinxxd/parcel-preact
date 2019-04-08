@@ -1,0 +1,20 @@
+{
+    "name": "parcel-preact",
+    "version": "0.0.1",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel index.html",
+        "build": "parcel build index.js"
+    },
+    "author": "Martin Weiss",
+    "license": "MIT",
+    "dependencies": {
+        "preact": "^8.4.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.3",
+        "@babel/plugin-transform-react-jsx": "^7.3.0",
+        "@babel/preset-env": "^7.4.3",
+        "parcel-bundler": "^1.12.3"
+    }
+}
